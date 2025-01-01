@@ -23,5 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void one(View view) {
         shaked.setText("Oh, yea, I’ve been clicked!");
+
     }
 }
