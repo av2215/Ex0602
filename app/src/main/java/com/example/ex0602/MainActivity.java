@@ -13,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     Button shaked;
+    int shaked2=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +23,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void one(View view) {
-        shaked.setText("Oh, yea, I’ve been clicked!");
+        shaked2++;
+        shaked.setText("This is a click number:"+shaked2);
+
+
 
     }
 }
