@@ -25,10 +25,9 @@ public class MainActivity extends AppCompatActivity {
     public void one(View view) {
         shaked2++;
         shaked.setText("This is a click number:"+shaked2);
-        if(shaked2>=6)
+        if(shaked2%7==0)
         {
-            shaked.setText("Enough to click. Go to new start!");
-            shaked2=0;
+            shaked.setText("BOOM!");
         }
 
 
